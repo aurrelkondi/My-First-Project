@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image: url("../images/image9.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  margin-top: 10%;
+  text-align: center;
+  font-family: fantasy;
+  font-size: 40px;
+  letter-spacing: 20px;
+  color: greenyellow;
+}
+
+nav {
+  position: fixed;
+  top: 30px;
+  width: 100%;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  padding-inline-start: 4px;
+}
+nav ul li {
+  list-style-type: none;
+}
+nav ul li a {
+  color: rgb(83, 178, 241);
+  font-weight: lighter;
+  display: inline-block;
+  padding: 12px;
+}
+nav ul li a:hover {
+  background-color: blue;
+}
+nav ul li a:active {
+  background-color: crimson;
+}
+
+h2 {
+  color: rgb(32, 155, 236);
+  font-family: monospace;
+  font-size: 40px;
+  padding: 0px;
+  margin: 0px;
+  line-height: 1;
+  letter-spacing: 8px;
+  margin-left: 90px;
+}
+.information {
+  color: white;
+  margin-left: 90px;
+  font-size: 1em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.information-sec {
+  color: blue;
+}
+.contact {
+  margin-bottom: 42px;
+}
+.contact-sec {
+  margin-bottom: 35px;
+}
+.corporate-sec {
+  margin-bottom: 35px;
+}
+
+.register-sec {
+  margin-bottom: 35px;
+}
+i {
+  color: blue;
+}
+.icons {
+  position: fixed;
+  right: 0;
+}
+
+.icons a {
+  text-decoration: none;
+}
+.space {
+  margin-left: 15px;
+}
